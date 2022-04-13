@@ -52,3 +52,67 @@ a {
 #Mission h3 {
     font-size: 20px;
 }
+
+#cars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.car {
+    height: 100vh;
+    width: 20vw;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    transition: width 0.5s;
+}
+
+.car:hover {
+    width: 40vw;
+    transition: width 0.5s;
+}
+
+.S {
+    background-image: url(/ressources/media/ms-homepage-desktop.jpg);
+}
+
+.model3 {
+    background-image: url(/ressources/media/Desktop-Model3.jpg);
+}
+
+.X {
+    background-image: url(/ressources/media/mx-homepage-desktop.jpg);
+}
+
+.Y {
+    background-image: url(/ressources/media/Desktop-ModelY.jpg);
+}
+
+.Cybertruck {
+    background-image: url(/ressources/media/Cybertruck-Hero-Desktop.jpg);
+}
+
+.car h2 {
+    margin-top: 550px;
+    font-size: 30px;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+.car button {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: grey;
+    font-size: 16px;
+    transition: background-color 0.1s;
+    opacity: 0.8;
+}
+
+.car button:hover {
+    background-color: white;
+    transition: background-color 0.1s;
+}

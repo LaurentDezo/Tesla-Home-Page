@@ -116,3 +116,37 @@ a {
     background-color: white;
     transition: background-color 0.1s;
 }
+
+#Team {
+    background-image: url(/ressources/media/interior.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0 80px;
+}
+
+#Team h2{
+    font-size: 60px;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+.persons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.person {
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    border-radius: 10px;
+}
+
+.person img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
